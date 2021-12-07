@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+}
+h1{
+    font-size:50px;
+}
+.orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+    padding:5%;
+}
+   
+.half-width{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.half-width img{
+    width:100%;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.banner-2{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.center{
+    text-align: center;
+}
+.Recipie-Title{
+    width: 100%;
+    margin:2.5%;
+    padding:2.5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+
+}
+.recipie-img{
+    width:100%;
+    border-radius: 10px;
+   
+}
+.socal-media{
+    display: flex;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    padding:1%;
+    border-radius: 10px;
+    box-shadow:10px 10px 40px rgb(44, 43, 43);
+}
+.socal-media-div{
+    margin: auto;
+    padding:1%;
+   
+}
+footer {
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    right:0;
+    width: 100%;
+    background-color:rgb(43, 42, 42);
+    color: white;
+}
+.gray-color{
+    color: gray;
+}
